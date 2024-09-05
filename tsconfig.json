@@ -1,0 +1,10 @@
+{
+    //TS의 엄격한 문법으로 사용하겠다고 지정
+    "compilerOptions": {
+        "strict": true
+    },
+    //TS 코드를 제공할 경로를 제공
+    "include": [
+        "src/**/*.ts"
+    ]
+}
