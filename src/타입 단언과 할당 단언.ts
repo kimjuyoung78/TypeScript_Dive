@@ -27,9 +27,8 @@ toTwoDecimals('Hello world!', false)
 
 // 3)
 const json = '{ "name": "Heropy", "age": 85 }'
-const user = JSON.parse(json)
-console.log(user.email)
-
+const user = JSON.parse(json) as {name: string , age: number}
+// console.log(user.email)
 
 
 // 4)
