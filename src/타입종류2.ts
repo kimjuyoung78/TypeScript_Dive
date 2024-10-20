@@ -79,4 +79,4 @@ if(typeof unk === 'string'){
     console.log(unk.toUpperCase);//OK!  
 }
 unk = 123
-console.log(unk.toUpperCase()) // Error!
+// console.log(unk.toUpperCase()) // Error!

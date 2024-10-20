@@ -27,7 +27,7 @@ function toTwoDecimals(val: number | string) {
     }
 }
 toTwoDecimals(3.141592)
-toTwoDecimals('Hello world!')
+toTwoDecimals('Hello world!') 
 
 // 3)
 type UserA = { name: string, age: number }
