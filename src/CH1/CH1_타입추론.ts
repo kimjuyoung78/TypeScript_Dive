@@ -10,6 +10,6 @@ a = true //'boolean' 형식은 'string' 형식에 할당할 수 없습니다.
 function join(a: string, b: string=''):string{
     return a + b
 }
-const x = join('Hello','World') // x 가 문자열이라는 것을 설명 안해도 타입 추론을 통해 타입 지정을 할 수 있다.
+const   x = join('Hello','World') // x 가 문자열이라는 것을 설명 안해도 타입 추론을 통해 타입 지정을 할 수 있다.
 //이때 a나 b 둘 중에 하나라도 자료형이 선언이 된 경우에만. 둘 다 없으면 오류가 난다.
 join('Good')
